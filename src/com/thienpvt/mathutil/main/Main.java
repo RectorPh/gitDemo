@@ -1,0 +1,19 @@
+
+package com.thienpvt.mathutil.main;
+
+import com.thienpvt.mathutil.core.MathUtil;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        
+        long expected  = 120;
+        int n = 5;
+        long actual = MathUtil.getFactory(n);
+        
+   
+        System.out.println("5! = " + expected + " expected" );
+        System.out.println("5! = " + actual + " actual" );
+        
+    }
+}
