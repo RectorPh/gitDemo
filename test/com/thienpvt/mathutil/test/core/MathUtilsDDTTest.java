@@ -40,7 +40,8 @@ public class MathUtilsDDTTest {
     
     @Test
     public void testGetFactorialGivenRightArgument(){
-        Assert.assertEquals(expected, MathUtil.getFactory(n));
+        Assert.assertEquals(expected, MathUtil.getFactorial(n));
     }
+    
     
 }

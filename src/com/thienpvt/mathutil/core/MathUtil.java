@@ -18,20 +18,33 @@ public class MathUtil {
         // TODO code application logic here
     }
     
-    public static long getFactory(int n){
-        if(n < 0 || n > 20){
-            throw new IllegalArgumentException("Invalid argument must be between 0 and 20");
-        }
-        
+//    public static long getFactory(int n){
+//        if(n < 0 || n > 20){
+//            throw new IllegalArgumentException("Invalid argument must be between 0 and 20");
+//        }
+//        
+//        if(n == 0 || n == 1) return 1;
+//        
+//        long product = 1;
+//        
+//        for (int i = 2; i <= n; i++) {
+//            product *= i;
+//        }
+//        
+//        return product;
+//    }
+    
+    //recursion
+    //Hiện tượng gọi chính mình vs quy mô khác
+    
+    public static long getFactorial(int n){
         if(n == 0 || n == 1) return 1;
         
-        long product = 1;
-        
-        for (int i = 2; i <= n; i++) {
-            product *= i;
+        if(n < 0){
+            throw new IllegalArgumentException("The number must be smaller than 0");
         }
         
-        return product;
+        return n * getFactorial(n - 1);
+         
     }
-    
 }
