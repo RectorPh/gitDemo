@@ -38,7 +38,7 @@ public class MathUtilTest {
         //test thử tình huống tử tế đầu vào
         
         long expected = 1;
-        long actual = MathUtil.getFactory(n);
+        long actual = MathUtil.getFactorial(n);
         
         //so sanh nao
         Assert.assertEquals(expected, actual);
@@ -88,7 +88,7 @@ public class MathUtilTest {
     
         try {
             
-            MathUtil.getFactory(-5);
+            MathUtil.getFactorial(-5);
             
         } catch (Exception e) {
             

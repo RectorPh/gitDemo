@@ -9,7 +9,7 @@ public class Main {
         
         long expected  = 120;
         int n = 5;
-        long actual = MathUtil.getFactory(n);
+        long actual = MathUtil.getFactorial(n);
         
    
         System.out.println("5! = " + expected + " expected" );
