@@ -5,3 +5,6 @@
 #### © 2022 Thien Pham
 
 [![CI with GitHub Actions using Ant and JUnit | © 2022 by Thien Pham](https://github.com/RectorPh/gitDemo/actions/workflows/ci-junit.yml/badge.svg)](https://github.com/RectorPh/gitDemo/actions/workflows/ci-junit.yml)
+
+###Screenshot
+![DDT CI](https://github.com/RectorPh/gitDemo/blob/main/images/DDTTest.png)
